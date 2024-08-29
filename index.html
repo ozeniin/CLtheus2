@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&display=swap" rel="stylesheet">
+    <title>gonçalves</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="batman.jpeg.jpeg" alt="">
+            <p>Você deseja jogar o jogo do batman?</p>                                                                                                                                                                                                                                                                                                  ?</p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="florestas.jpg" alt="">
+            <p>Você está perdido em uma floresta e não sabe como foi parar ali, sua cabeça dói e você tem fome.Você encontra um Lobo bem vestido, o que você diz?</p>
+            <button class="btn-proximo" data-proximo="3">Preciso de ajuda</button>
+            <button class="btn-proximo" data-proximo="4">Por favor, não me ataque</button>
+            <button class="btn-proximo" data-proximo="4">Não diz nada</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>(Você nâo tem escolha)</p>
+            <button class="btn-proximo" data-proximo="1">OK</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="florestas.jpg" alt="">
+            <p>Ele pede para segui-lo.Vocês dois chegam na casa do Lobo. Antes de entrarem, o lobo limpa os sapatos no tapete e entra na casa.Você:</p>
+            <button class="btn-proximo" data-proximo="5">Entra na casa atrás dele</button>
+            <button class="btn-proximo" data-proximo="6">Pergunta se pode entrar entrar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="morto.jpg" alt="">
+            <p>Ele te ignora e deixa você lá. Você morre de fome por falta de recurso.</p>
+            <button class="btn-proximo" data-proximo="1">OK</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="morto.jpg" alt="">
+            <p>Ele não deixou você entrar.Você morreu.</p>
+            <button class="btn-proximo" data-proximo="1">OK</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="dentro da casa.jpg" alt="">
+            <p>Ele deixou você entrar e começou a te apresentar a casa, ele pergunta onde você vai dormir. Você:</p>
+            <button class="btn-proximo" data-proximo="7">Diz que quer dormir com ele</button>
+            <button class="btn-proximo" data-proximo="8">Diz que quer dormir no escritório</button>
+            <button class="btn-proximo" data-proximo="9">Diz que quer dormir no quintal</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ele sorriu e deixou você dormir no quarto com ele.(Lá você encontrou uma chave e guardou no bolso)</p>
+            <button class="btn-proximo" data-proximo="10">OK</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>O lobo estranhou, porém deixou você dormir no escritório.(Lá você achou um isqueiro e guardou no bolso)</p>
+            <button class="btn-proximo" data-proximo="10">OK</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="morto.jpg" alt="">
+            <p>Ele sorriu e deixou você dormir no quintal.(Lá você passou muito frio e morreu)</p>
+            <button class="btn-proximo" data-proximo="1">OK</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O Dia 1 acabou...</p>
+            <button class="btn-proximo" data-proximo="0">OK</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>   

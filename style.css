@@ -1,0 +1,28 @@
+body{ 
+    background: black ;
+    font-family: "Anton", system-ui;
+    color: #b85042;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 200%;
+}
+button{
+background-color: #e7e8d1;
+font-family: "Anton", system-ui;
+font-size: 100%;
+}
+.passo{
+    display:none;
+}
+.passo.ativo{
+    display:block;
+}
+main{
+    max-width: 80%;
+    text-align:center;
+}
+img{
+    width: 500px;
+}
